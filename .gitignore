@@ -1,0 +1,19 @@
+ # Файли збірки (Binaries)
+*.exe
+*.o
+*.obj
+*.out
+
+# Папки IDE (Visual Studio, VS Code)
+.vscode/
+.vs/
+bin/
+obj/
+out/
+x64/
+Debug/
+Release/
+
+# Тимчасові файли
+*.log
+*.tmp 
