@@ -28,6 +28,11 @@ int main() {
 
         cout << "Result: ";
         switch (choice) {
+            
+            case 2:
+                cout << a << " - " << b << " = " << calc.subtract(a, b) << endl;
+                break;
+           
         default:
             cout << "This function is not yet implemented!" << endl;
             break;
