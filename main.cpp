@@ -23,17 +23,16 @@ int main() {
                 cout << "Exiting the program." << endl;
                 break;
             }
-
-            cout << "Enter two integers separated by a space: ";
-            cin >> a >> b;
+          
+           cout << "Enter two integers separated by a space: ";
+           cin >> a >> b;
 
             cout << "Result: ";
             switch (choice) {
             case 1:
                 cout << a << " + " << b << " = " << calc.add(a, b) << endl;
-                break;
-            default:
-                cout << "This function is not yet implemented!" << endl;
+            case 2:
+                cout << a << " - " << b << " = " << calc.subtract(a, b) << endl;
                 break;
             case 3:
                 cout << a << " * " << b << " = " << calc.multiply(a, b) << endl;
