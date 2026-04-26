@@ -8,7 +8,7 @@ int main() {
     int choice;
     int a, b;
 
-    cout << "--- Calculator ---" << endl
+    cout << "--- Calculator ---" << endl;
 
         while (true) {
             cout << "\nMenu:" << endl;
@@ -29,14 +29,18 @@ int main() {
 
             cout << "Result: ";
             switch (choice) {
+            case 1:
+                cout << a << " + " << b << " = " << calc.add(a, b) << endl;
+                break;
+            default:
+                cout << "This function is not yet implemented!" << endl;
+                break;
             case 3:
                 cout << a << " * " << b << " = " << calc.multiply(a, b) << endl;
                 break;
             default:
                 cout << "This function is not yet implemented!" << endl;
                 break;
-            }
-        }
-
+   
     return 0;
 }
